@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "CKZiU Elektryk - zmienione zastępstwa",
+    "version": "1.0",
+    "content_scripts": [{
+        "js": ["jquery-3.6.0.min.js", "content.js"],
+        "matches": ["http://zastepstwa.ckziu-elektryk.pl/"]
+    }]
+}
